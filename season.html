@@ -1,0 +1,1538 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Season 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Monomaniac+One&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/88b98d8504.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../css/anime.css">
+    <link rel="icon" href="../IMAGE/QRlod-icon.png" type="image/icon type">
+    <style>
+        .castifram {
+            background: url(https://qrlod-game.fr/IMAGE/Jujutsukaisen/jjkfan.gif);
+        }
+    </style>
+</head>
+
+<body>
+    <header style="position: absolute; color: rgb(255, 255, 255);">
+        <nav class="navbar">
+            <div class="logo">
+                <a onclick="QRlod()"><img src="../../IMAGE/QRlod-land sopa.png"></a>
+            </div>
+
+            <img src="../../IMAGE/navcam.png" alt="burger" id="menu-hamburger" class="menu">
+            <div class="nav-links" id="nav-links">
+                <ul>
+                    <li class="recherche" onclick="Search()"><i class="fa-solid fa-magnifying-glass"
+                            style="margin: 20px;"></i></li>
+
+                    <li class="nav-item qrlod-game" onclick="QRmoney()">QRlod Money</li>
+
+
+                    <li class="nav-item gide" onclick="guideulti()">Ambition. <br>
+                        Millionnaire.</li>
+
+
+                    <li class="nav-item dicord" onclick="discord()">rejoins-nous!</li>
+
+
+                    <li class="nav-item adult" onclick="adult()">Adult🔞</li>
+
+
+
+                    <script src="../../javascript/redirect.js"></script>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="all">
+        <div class="big">
+            <h1 style="width: 80%;">Jujutsu Kaisen season 1</h1>
+            <div class="c-breadcrumb" style="width: 80%;">
+                <ol class="breadcrumb" style="display: flex; flex-direction: row;">
+                    <li style="list-style-type: none; margin-left: 4px;">
+                        <a href="../index.html" style="color: rgba(255, 255, 255, 0.53); text-decoration:none">
+                            Accueil/
+                        </a>
+                    </li>
+
+                    <li style="list-style-type: none; margin-left: 4px;">
+                        <a href="jujutsu-kaisen.html" style="color: rgba(255, 255, 255, 0.53); text-decoration:none">
+                            Jujutsu Kaisen/
+                        </a>
+                    </li>
+
+                    <li class="active"
+                        style="list-style-type: none; margin-left: 4px; color: rgba(117, 116, 116, 0.53);">
+                        season 1
+                    </li>
+
+                </ol>
+            </div>
+            <div class="mouv">
+                <div class="dropdown">
+                    <button class="bloc-top">
+                        <span>Season 1</span>
+                        <img src="../../IMAGE/flech.png" alt="déroulé">
+                    </button>
+                    <div class="bloc-links">
+                        <ul>
+                            <script>
+                                for (let i = 0; i <= 2; i++) {
+                                    const currentPage = window.location.pathname; // Récupère le chemin de la page actuelle
+                                    const pageLink = 'season-' + i + '.html';
+                                    const linkText = 'season-' + i;
+                                    const isActive = currentPage.includes(linkText);
+
+                                    if (isActive) {
+                                        document.write('<li><a style="color: red;">' + linkText + '</a></li>');
+                                    } else {
+                                        document.write('<li><a href="' + pageLink + '">' + linkText + '</a></li>');
+                                    }
+                                }
+                            </script>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mouv-plus">
+                    <button onclick="toggleVOST(1)">VF</button>
+                    <button onclick="toggleVOST(2)">VOSTFR</button>
+                    <a href="jujutsu-kaisen.html"><button>info ℹ </button></a>
+                    <script>
+                        function toggleVOST(voNumber) {
+                            document.getElementById('language1').style.display = 'none';
+                            document.getElementById('language2').style.display = 'none';
+
+
+
+                            document.getElementById('language' + voNumber).style.display = 'flex';
+
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bloc-shap">
+        <div class="shap">
+            <div class="platform">
+
+
+                <!--vf-->
+                <div id="language1" class="language">
+
+                    <div class="slam">
+
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(1)">épisode 1</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(2)">épisode 2</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(3)">épisode 3</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(4)">épisode 4</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(5)">épisode 5</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(6)">épisode 6</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(7)">épisode 7</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(8)">épisode 8</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(9)">épisode 9</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(10)">épisode 10</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(11)">épisode 11</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(12)">épisode 12</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(13)">épisode 13</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(14)">épisode 14</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(15)">épisode 15</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(16)">épisode 16</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(17)">épisode 17</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(18)">épisode 18</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(19)">épisode 19</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(20)">épisode 20</button>
+                        </div>
+
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(21)">épisode 21</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(22)">épisode 22</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(23)">épisode 23</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode1(24)">épisode 24</button>
+                        </div>
+
+                        <script>
+                            function toggleEpisode1(video1Number) {
+                                // Masquer toutes les vidéos
+                                document.getElementById('Episode1').style.display = 'none';
+                                document.getElementById('Episode2').style.display = 'none';
+                                document.getElementById('Episode3').style.display = 'none';
+                                document.getElementById('Episode4').style.display = 'none';
+                                document.getElementById('Episode5').style.display = 'none';
+                                document.getElementById('Episode6').style.display = 'none';
+                                document.getElementById('Episode7').style.display = 'none';
+                                document.getElementById('Episode8').style.display = 'none';
+                                document.getElementById('Episode9').style.display = 'none';
+                                document.getElementById('Episode10').style.display = 'none';
+                                document.getElementById('Episode11').style.display = 'none';
+                                document.getElementById('Episode12').style.display = 'none';
+                                document.getElementById('Episode13').style.display = 'none';
+                                document.getElementById('Episode14').style.display = 'none';
+                                document.getElementById('Episode15').style.display = 'none';
+                                document.getElementById('Episode16').style.display = 'none';
+                                document.getElementById('Episode17').style.display = 'none';
+                                document.getElementById('Episode18').style.display = 'none';
+                                document.getElementById('Episode19').style.display = 'none';
+                                document.getElementById('Episode20').style.display = 'none';
+                                document.getElementById('Episode21').style.display = 'none';
+                                document.getElementById('Episode22').style.display = 'none';
+                                document.getElementById('Episode23').style.display = 'none';
+                                document.getElementById('Episode24').style.display = 'none';
+
+
+                                document.getElementById('Episode' + video1Number).style.display = 'flex';
+
+
+                            }
+                        </script>
+
+
+                    </div>
+
+
+
+                    <!--cast 1-->
+                    <div id="Episode1" class="epiall">
+
+                        <div class="butall">
+                            <button onclick="changeVideo('https://uqload.io/embed-nwr3vkwrcgbk.html')">uqloadVF</button>
+                            <button onclick="changeVideo('//sendvid.com/embed/i3vd2zwg')">sendvidVF</button>
+                            <button
+                                onclick="changeVideo('https://video.sibnet.ru/shell.php?videoid=4668025&share=1')">sibnetVF</button>
+                        </div>
+                        <div class="cast">
+                            <iframe class="castifram" id="videoFrame" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+                        </div>
+                        <script>
+                            function changeVideo(newSrc) {
+                                var iframe = document.getElementById('videoFrame');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+                    </div>
+                    
+
+                    <!--cast 2-->
+                    <div id="Episode2" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button
+                                onclick="changeVideo2('https://uqload.io/embed-rby0vs5hhpuv.html')">uqloadVF</button>
+                            <button onclick="changeVideo2('//sendvid.com/embed/r6v8kqd1')">sendvidVF</button>
+                            <button
+                                onclick="changeVideo2('https://video.sibnet.ru/shell.php?videoid=4668028&share=1')">sibnetVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame2" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo2(newSrc) {
+                                var iframe = document.getElementById('videoFrame2');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+                    <!--cast 3-->
+                    <div id="Episode3" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button
+                                onclick="changeVideo3('https://uqload.io/embed-leel6e5bwnwb.html')">uqloadVF</button>
+                            <button onclick="changeVideo3('//sendvid.com/embed/wapx4wuy')">sendvidVF</button>
+                            <button
+                                onclick="changeVideo3('https://video.sibnet.ru/shell.php?videoid=4668029&share=1')">sibnetVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame3" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo3(newSrc) {
+                                var iframe = document.getElementById('videoFrame3');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+                    <!--cast 4-->
+                    <div id="Episode4" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button
+                                onclick="changeVideo4('https://uqload.io/embed-8ntib7fq5i7w.html')">uqloadVF</button>
+                            <button onclick="changeVideo4('//sendvid.com/embed/kwho7xaa')">sendvidVF</button>
+                            <button
+                                onclick="changeVideo4('https://video.sibnet.ru/shell.php?videoid=4668030&share=1')">sibnetVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame4" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo4(newSrc) {
+                                var iframe = document.getElementById('videoFrame4');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+                    <!--cast 5-->
+                    <div id="Episode5" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button
+                                onclick="changeVideo5('https://uqload.io/embed-li6v6v0jkzof.html')">uqloadVF</button>
+                            <button onclick="changeVideo5('//sendvid.com/embed/cghegyuo')">sendvidVF</button>
+                            <button
+                                onclick="changeVideo5('https://video.sibnet.ru/shell.php?videoid=4668034&share=1')">sibnetVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame5" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo5(newSrc) {
+                                var iframe = document.getElementById('videoFrame5');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+
+                    <!--cast 6-->
+                    <div id="Episode6" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button
+                                onclick="changeVideo6('https://uqload.io/embed-vkz19c4q8bzu.html')">uqloadVF</button>
+                            <button onclick="changeVideo6('//sendvid.com/embed/3g7thicu')">sendvidVF</button>
+                            <button
+                                onclick="changeVideo6('https://video.sibnet.ru/shell.php?videoid=4668035&share=1')">sibnetVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame6" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo6(newSrc) {
+                                var iframe = document.getElementById('videoFrame6');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+                    <!--cast 7-->
+                    <div id="Episode7" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button
+                                onclick="changeVideo7('https://uqload.io/embed-dpigjjv9pnqo.html')">uqloadVF</button>
+                            <button onclick="changeVideo7('//sendvid.com/embed/hvjzk03a')">sendvidVF</button>
+                            <button
+                                onclick="changeVideo7('https://video.sibnet.ru/shell.php?videoid=4668038&share=1')">sibnetVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame7" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo7(newSrc) {
+                                var iframe = document.getElementById('videoFrame7');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+                    <!--cast 8-->
+                    <div id="Episode8" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button
+                                onclick="changeVideo8('https://uqload.io/embed-dizpsqnym8ai.html')">uqloadVF</button>
+                            <button onclick="changeVideo8('//sendvid.com/embed/rc0eqlos')">sendvidVF</button>
+                            <button
+                                onclick="changeVideo8('https://video.sibnet.ru/shell.php?videoid=4668040&share=1')">sibnetVF</button>
+                            <button
+                                onclick="changeVideo8('https://my.mail.ru/video/embed/7927577985584989376')">mailVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame8" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo8(newSrc) {
+                                var iframe = document.getElementById('videoFrame8');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+
+                    <!--cast 9-->
+                    <div id="Episode9" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button
+                                onclick="changeVideo9('https://uqload.io/embed-fgr55oeprtwe.html')">uqloadVF</button>
+                            <button onclick="changeVideo9('//sendvid.com/embed/dl2uxokb')">sendvidVF</button>
+                            <button
+                                onclick="changeVideo9('https://video.sibnet.ru/shell.php?videoid=4668042&share=1')">sibnetVF</button>
+                            <button
+                                onclick="changeVideo9('https://my.mail.ru/video/embed/7927577985584989588')">mailVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame9" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo9(newSrc) {
+                                var iframe = document.getElementById('videoFrame9');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+
+                    <!--cast 10-->
+                    <div id="Episode10" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button
+                                onclick="changeVideo10('https://uqload.io/embed-fr5gzs72nfgn.html')">uqloadVF</button>
+                            <button onclick="changeVideo10('//sendvid.com/embed/i6ykssdc')">sendvidVF</button>
+                            <button
+                                onclick="changeVideo10('https://video.sibnet.ru/shell.php?videoid=4668044&share=1')">sibnetVF</button>
+                            <button
+                                onclick="changeVideo10('https://my.mail.ru/video/embed/7927577985584989752')">mailVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame10" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo10(newSrc) {
+                                var iframe = document.getElementById('videoFrame10');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+
+                    <!--cast 11-->
+                    <div id="Episode11" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button
+                                onclick="changeVideo11('https://my.mail.ru/video/embed/7927577985584989907')">mailVF</button>
+                            <button onclick="changeVideo11('//sendvid.com/embed/jc680ha3')">sendvidVF</button>
+                            <button
+                                onclick="changeVideo11('https://video.sibnet.ru/shell.php?videoid=4668049&share=1')">sibnetVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame11" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo11(newSrc) {
+                                var iframe = document.getElementById('videoFrame11');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+                    <!--cast 12-->
+                    <div id="Episode12" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button
+                                onclick="changeVideo12('https://uqload.io/embed-u85gnmqdu76c.html')">uqloadVF</button>
+                            <button onclick="changeVideo12('//sendvid.com/embed/yqf25ezs')">sendvidVF</button>
+                            <button
+                                onclick="changeVideo12('https://video.sibnet.ru/shell.php?videoid=4668055&share=1')">sibnetVF</button>
+                            <button
+                                onclick="changeVideo12('https://my.mail.ru/video/embed/7927577985584990034')">mailVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame12" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo12(newSrc) {
+                                var iframe = document.getElementById('videoFrame12');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+                    <!--cast 13-->
+                    <div id="Episode13" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button
+                                onclick="changeVideo13('https://uqload.io/embed-89sf9gsabbw6.html')">uqloadVF</button>
+                            <button onclick="changeVideo13('//sendvid.com/embed/mir0cyz8')">sendvidVF</button>
+                            <button
+                                onclick="changeVideo13('https://video.sibnet.ru/shell.php?videoid=4668061&share=1')">sibnetVF</button>
+                            <button
+                                onclick="changeVideo13('https://my.mail.ru/video/embed/7927577985584990180')">mailVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame13" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo13(newSrc) {
+                                var iframe = document.getElementById('videoFrame13');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+                    <!--cast 14-->
+                    <div id="Episode14" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button
+                                onclick="changeVideo14('https://my.mail.ru/video/embed/7927577985584990604')">mailVF</button>
+                            <button onclick="changeVideo14('//sendvid.com/embed/flvmotqw')">sendvidVF</button>
+                            <button
+                                onclick="changeVideo14('https://video.sibnet.ru/shell.php?videoid=4668066&share=1')">sibnetVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame14" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo14(newSrc) {
+                                var iframe = document.getElementById('videoFrame14');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+                    <!--cast 15-->
+                    <div id="Episode15" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button
+                                onclick="changeVideo15('https://uqload.io/embed-wnsslov7xgv3.html')">uqloadVF</button>
+                            <button onclick="changeVideo15('//sendvid.com/embed/e09mq5k3')">sendvidVF</button>
+                            <button
+                                onclick="changeVideo15('https://video.sibnet.ru/shell.php?videoid=4668072&share=1')">sibnetVF</button>
+                            <button
+                                onclick="changeVideo15('https://my.mail.ru/video/embed/7927577985584990716')">mailVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame15" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo15(newSrc) {
+                                var iframe = document.getElementById('videoFrame15');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+                    <!--cast 16-->
+                    <div id="Episode16" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button onclick="changeVideo16('https://uqload.io/embed-pu1po2inasin.html')">uqloadVF</button>
+                            <button onclick="changeVideo16('//sendvid.com/embed/mdvp0no9')">sendvidVF</button>
+                            <button onclick="changeVideo16('https://video.sibnet.ru/shell.php?videoid=4668077&share=1')">sibnetVF</button>
+                            <button onclick="changeVideo16('https://my.mail.ru/video/embed/7927577985584990840')">mailVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame16" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo16(newSrc) {
+                                var iframe = document.getElementById('videoFrame16');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+
+                    <!--cast 17-->
+                    <div id="Episode17" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button onclick="changeVideo17('https://my.mail.ru/video/embed/7927577985584991224')">mailVF</button>
+                            <button onclick="changeVideo17('//sendvid.com/embed/gwwqs7ul')">sendvidVF</button>
+                            <button onclick="changeVideo17('https://video.sibnet.ru/shell.php?videoid=4668081&share=1')">sibnetVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame17" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo17(newSrc) {
+                                var iframe = document.getElementById('videoFrame17');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+                    <!--cast 18-->
+                    <div id="Episode18" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button onclick="changeVideo18('https://uqload.io/embed-0vsy6xkzjd5r.html')">uqloadVF</button>
+                            <button onclick="changeVideo18('//sendvid.com/embed/7iuf4jag')">sendvidVF</button>
+                            <button onclick="changeVideo18('https://video.sibnet.ru/shell.php?videoid=4668084&share=1')">sibnetVF</button>
+                            <button onclick="changeVideo18('https://my.mail.ru/video/embed/7927577985584991305')">mailVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame18" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo18(newSrc) {
+                                var iframe = document.getElementById('videoFrame18');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+                    <!--cast 19-->
+                    <div id="Episode19" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button onclick="changeVideo19('https://uqload.io/embed-v6dxp7qoyl34.html')">uqloadVF</button>
+                            <button onclick="changeVideo19('//sendvid.com/embed/8p4oviq8')">sendvidVF</button>
+                            <button onclick="changeVideo19('https://video.sibnet.ru/shell.php?videoid=4668086&share=1')">sibnetVF</button>
+                            <button onclick="changeVideo19('https://my.mail.ru/video/embed/7927577985584991405')">mailVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame19" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo19(newSrc) {
+                                var iframe = document.getElementById('videoFrame19');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+
+                    <!--cast 20-->
+                    <div id="Episode20" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button onclick="changeVideo20('https://uqload.io/embed-1t4pzcthdmtm.html')">uqloadVF</button>
+                            <button onclick="changeVideo20('//sendvid.com/embed/1b2xj024')">sendvidVF</button>
+                            <button onclick="changeVideo20('https://video.sibnet.ru/shell.php?videoid=4668089&share=1')">sibnetVF</button>
+                            <button onclick="changeVideo20('https://my.mail.ru/video/embed/7927577985584991497')">mailVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame20" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo20(newSrc) {
+                                var iframe = document.getElementById('videoFrame20');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+                    <!--cast 21-->
+                    <div id="Episode21" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button onclick="changeVideo21('https://uqload.io/embed-5r0s53pwf47q.html')">uqloadVF</button>
+                            <button onclick="changeVideo21('//sendvid.com/embed/63yrva92')">sendvidVF</button>
+                            <button onclick="changeVideo21('https://video.sibnet.ru/shell.php?videoid=4668092&share=1')">sibnetVF</button>
+                            <button onclick="changeVideo21('https://my.mail.ru/video/embed/7927577985584991575')">mailVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame21" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo21(newSrc) {
+                                var iframe = document.getElementById('videoFrame21');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+                    <!--cast 22-->
+                    <div id="Episode22" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button onclick="changeVideo22('https://uqload.io/embed-vht6g9wfzjxh.html')">uqloadVF</button>
+                            <button onclick="changeVideo22('//sendvid.com/embed/7gqbobum')">sendvidVF</button>
+                            <button onclick="changeVideo22('https://video.sibnet.ru/shell.php?videoid=4668096&share=1')">sibnetVF</button>
+                            <button onclick="changeVideo22('https://my.mail.ru/video/embed/7927577985584991653')">mailVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame22" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo22(newSrc) {
+                                var iframe = document.getElementById('videoFrame22');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+                    <!--cast 23-->
+                    <div id="Episode23" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button onclick="changeVideo23('https://uqload.io/embed-kvj3i3iguzp2.html')">uqloadVF</button>
+                            <button onclick="changeVideo23('//sendvid.com/embed/5ai86bxs')">sendvidVF</button>
+                            <button onclick="changeVideo23('https://video.sibnet.ru/shell.php?videoid=4668102&share=1')">sibnetVF</button>
+                            <button onclick="changeVideo23('https://my.mail.ru/video/embed/7927577985584991774')">mailVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame23" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo23(newSrc) {
+                                var iframe = document.getElementById('videoFrame23');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+                    <!--cast 24-->
+                    <div id="Episode24" class="epiall" style="display: none;">
+
+                        <div class="butall">
+                            <button onclick="changeVideo24('https://uqload.io/embed-l7gted2aswai.html')">uqloadVF</button>
+                            <button onclick="changeVideo24('//sendvid.com/embed/mgyc6uo4')">sendvidVF</button>
+                            <button onclick="changeVideo24('https://video.sibnet.ru/shell.php?videoid=4668111&share=1')">sibnetVF</button>
+                            <button onclick="changeVideo24('https://my.mail.ru/video/embed/7927577985584991840')">mailVF</button>
+                        </div>
+                        <div class="cast">
+
+                            <iframe class="castifram" id="videoFrame24" width="560" height="315" src="" frameborder="0"
+                                allowfullscreen></iframe>
+
+
+                        </div>
+                        <script>
+                            function changeVideo24(newSrc) {
+                                var iframe = document.getElementById('videoFrame24');
+                                iframe.src = newSrc;
+                            }
+                        </script>
+
+                    </div>
+
+                    
+
+
+
+                </div>
+
+                <!--VOSTFR-->
+                <div id="language2" class="language" style="display: none;">
+
+                    <div class="slam">
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(101)">épisode 1</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(102)">épisode 2</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(103)">épisode 3</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(104)">épisode 4</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(105)">épisode 5</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(106)">épisode 6</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(107)">épisode 7</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(108)">épisode 8</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(109)">épisode 9</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(110)">épisode 10</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(111)">épisode 11</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(112)">épisode 12</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(113)">épisode 13</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(114)">épisode 14</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(115)">épisode 15</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(116)">épisode 16</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(117)">épisode 17</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(118)">épisode 18</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(119)">épisode 19</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(120)">épisode 20</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(121)">épisode 21</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(122)">épisode 22</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(123)">épisode 23</button>
+                        </div>
+                        <div class="page-break no-gaps">
+                            <button onclick="toggleEpisode2(124)">épisode 24</button>
+                        </div>
+
+                        <script>
+
+                            function toggleEpisode2(video2Number) {
+                                // Masquer toutes les vidéos
+                                document.getElementById('Episode101').style.display = 'none';
+                                document.getElementById('Episode102').style.display = 'none';
+                                document.getElementById('Episode103').style.display = 'none';
+                                document.getElementById('Episode104').style.display = 'none';
+                                document.getElementById('Episode105').style.display = 'none';
+                                document.getElementById('Episode106').style.display = 'none';
+                                document.getElementById('Episode107').style.display = 'none';
+                                document.getElementById('Episode108').style.display = 'none';
+                                document.getElementById('Episode109').style.display = 'none';
+                                document.getElementById('Episode110').style.display = 'none';
+                                document.getElementById('Episode111').style.display = 'none';
+                                document.getElementById('Episode112').style.display = 'none';
+                                document.getElementById('Episode113').style.display = 'none';
+                                document.getElementById('Episode114').style.display = 'none';
+                                document.getElementById('Episode115').style.display = 'none';
+                                document.getElementById('Episode116').style.display = 'none';
+                                document.getElementById('Episode117').style.display = 'none';
+                                document.getElementById('Episode118').style.display = 'none';
+                                document.getElementById('Episode119').style.display = 'none';
+                                document.getElementById('Episode120').style.display = 'none';
+                                document.getElementById('Episode121').style.display = 'none';
+                                document.getElementById('Episode122').style.display = 'none';
+                                document.getElementById('Episode123').style.display = 'none';
+                                document.getElementById('Episode124').style.display = 'none';
+
+                                // Afficher la vidéo spécifiée
+                                document.getElementById('Episode' + video2Number).style.display = 'flex';
+                            }
+
+
+                        </script>
+
+
+                    </div>
+
+
+
+                   <!--cast 1-->
+                   <div id="Episode101" class="epiall">
+                    <div class="butall">
+                        <button onclick="changeVideo101('//sendvid.com/embed/g6zmqnsf')">sendvidVOSTFR</button>
+                        <button
+                            onclick="changeVideo101('https://video.sibnet.ru/shell.php?videoid=4667514&share=1')">sibnetVOSTFR</button>
+                        <button
+                            onclick="changeVideo101('https://my.mail.ru/video/embed/7471996897394164248')">mailVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame101" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo101(newSrc) {
+                            var iframe = document.getElementById('videoFrame101');
+                            iframe.src = newSrc;
+                        }
+
+                    </script>
+                </div>
+
+                <!--cast 2-->
+                <div id="Episode102" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button
+                            onclick="changeVideo102('https://uqload.io/embed-r4d0pgrjb7lp.html')">uqloadVOSTFR</button>
+                        <button onclick="changeVideo102('//sendvid.com/embed/qg2vbfam')">sendvidVOSTFR</button>
+                        <button
+                            onclick="changeVideo102('https://video.sibnet.ru/shell.php?videoid=4667523&share=1')">sibnetVOSTFR</button>
+                        <button
+                            onclick="changeVideo102('https://my.mail.ru/video/embed/7471996897394164249')">mailVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame102" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo102(newSrc) {
+                            var iframe = document.getElementById('videoFrame102');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+                <!--cast 3-->
+                <div id="Episode103" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo103('https://uqload.io/embed-0e9kqbujca6u.html')">uqloadVOSTFR</button>
+                        <button onclick="changeVideo103('//sendvid.com/embed/76wtzil1')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo103('https://video.sibnet.ru/shell.php?videoid=4667532&share=1')">sibnetVOSTFR</button>
+                        <button onclick="changeVideo103('https://my.mail.ru/video/embed/7471996897394164250')">mailVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame103" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo103(newSrc) {
+                            var iframe = document.getElementById('videoFrame103');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+                <!--cast 4-->
+                <div id="Episode104" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo104('https://uqload.io/embed-8e6vfp6016kx.html')">uqloadVOSTFR</button>
+                        <button onclick="changeVideo104('//sendvid.com/embed/2q1y8ec7')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo104('https://video.sibnet.ru/shell.php?videoid=4667548&share=1')">sibnetVOSTFR</button>
+                        <button onclick="changeVideo104('https://my.mail.ru/video/embed/7471996897394164251')">mailVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame104" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo104(newSrc) {
+                            var iframe = document.getElementById('videoFrame104');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+                <!--cast 5-->
+                <div id="Episode105" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo105('https://uqload.io/embed-grot4pxbuo9g.html')">uqloadVOSTFR</button>
+                        <button onclick="changeVideo105('//sendvid.com/embed/dlz7nl4n')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo105('https://video.sibnet.ru/shell.php?videoid=4667557&share=1')">sibnetVOSTFR</button>
+                        <button onclick="changeVideo105('https://my.mail.ru/video/embed/7471996897394164252')">mailVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame105" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo105(newSrc) {
+                            var iframe = document.getElementById('videoFrame105');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+                <!--cast 6-->
+                <div id="Episode106" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo106('https://uqload.io/embed-ppe2olbfw8qi.html')">uqloadVOSTFR</button>
+                        <button onclick="changeVideo106('//sendvid.com/embed/mj83fr9m')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo106('https://video.sibnet.ru/shell.php?videoid=4667566&share=1')">sibnetVOSTFR</button>
+                        <button onclick="changeVideo106('https://my.mail.ru/video/embed/7471996897394164253')">mailVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame106" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo106(newSrc) {
+                            var iframe = document.getElementById('videoFrame106');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+
+                <!--cast 7-->
+                <div id="Episode107" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo107('https://uqload.io/embed-8dlbylm68rjf.html')">uqloadVOSTFR</button>
+                        <button onclick="changeVideo107('//sendvid.com/embed/otsog419')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo107('https://video.sibnet.ru/shell.php?videoid=4667578&share=1')">sibnetVOSTFR</button>
+                        <button onclick="changeVideo107('https://my.mail.ru/video/embed/7927577985584988170')">mailVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame107" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+                        function changeVideo107(newSrc) {
+                            var iframe = document.getElementById('videoFrame107');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+
+                <!--cast 8-->
+                <div id="Episode108" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo108('https://uqload.io/embed-hbhr4fgciqun.html')">uqloadVOSTFR</button>
+                        <button onclick="changeVideo108('//sendvid.com/embed/3ifovb3e')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo108('https://video.sibnet.ru/shell.php?videoid=4667599&share=1')">sibnetVOSTFR</button>
+                        <button onclick="changeVideo108('https://my.mail.ru/video/embed/7927577985584988591')">mailVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame108" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo108(newSrc) {
+                            var iframe = document.getElementById('videoFrame108');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+
+                <!--cast 9-->
+                <div id="Episode109" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo109('https://uqload.io/embed-u6hxuthsh775.html')">uqloadVOSTFR</button>
+                        <button onclick="changeVideo109('//sendvid.com/embed/4i4curvz')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo109('https://video.sibnet.ru/shell.php?videoid=4667621&share=1')">sibnetVOSTFR</button>
+                        <button onclick="changeVideo109('https://my.mail.ru/video/embed/7927577985584988732')">mailVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame109" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo109(newSrc) {
+                            var iframe = document.getElementById('videoFrame109');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+
+                <!--cast 10-->
+                <div id="Episode110" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo110('https://uqload.io/embed-36wrhvjr928g.html')">uqloadVOSTFR</button>
+                        <button onclick="changeVideo110('//sendvid.com/embed/30lbi2fl')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo110('https://video.sibnet.ru/shell.php?videoid=4667634&share=1')">sibnetVOSTFR</button>
+                        <button onclick="changeVideo110('https://my.mail.ru/video/embed/7927577985584988859')">mailVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame110" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo110(newSrc) {
+                            var iframe = document.getElementById('videoFrame110');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+                <!--cast 11-->
+                <div id="Episode111" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo111('https://uqload.io/embed-he2ne2yndpz1.html')">uqloadVOSTFR</button>
+                        <button onclick="changeVideo111('//sendvid.com/embed/f3071f29')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo111('https://video.sibnet.ru/shell.php?videoid=4667642&share=1')">sibnetVOSTFR</button>
+                        <button onclick="changeVideo111('https://my.mail.ru/video/embed/7927577985584988998')">mailVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame111" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo111(newSrc) {
+                            var iframe = document.getElementById('videoFrame111');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+                <!--cast 12-->
+                <div id="Episode112" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo112('https://uqload.io/embed-bi47yiak3s05.html')">uqloadVOSTFR</button>
+                        <button onclick="changeVideo112('//sendvid.com/embed/fqjgqgzr')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo112('https://video.sibnet.ru/shell.php?videoid=4667648&share=1')">sibnetVOSTFR</button>
+                        <button onclick="changeVideo112('https://my.mail.ru/video/embed/7927577985584989075')">mailVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame112" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo112(newSrc) {
+                            var iframe = document.getElementById('videoFrame112');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+                <!--cast 13-->
+                <div id="Episode113" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo113('https://uqload.io/embed-5xui02itq6js.html')">uqloadVOSTFR</button>
+                        <button onclick="changeVideo113('//sendvid.com/embed/6zzzue8o')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo113('https://video.sibnet.ru/shell.php?videoid=4667656&share=1')">sibnetVOSTFR</button>
+                        <button onclick="changeVideo113('https://my.mail.ru/video/embed/7927577985584989136')">mailVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame113" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo113(newSrc) {
+                            var iframe = document.getElementById('videoFrame113');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+                <!--cast 14-->
+                <div id="Episode114" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo114('https://uqload.io/embed-fvbyjxz9wry0.html')">uqloadVOSTFR</button>
+                        <button onclick="changeVideo114('//sendvid.com/embed/cdlh6awa')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo114('https://video.sibnet.ru/shell.php?videoid=4667663&share=1')">sibnetVOSTFR</button>
+                        <button onclick="changeVideo114('https://my.mail.ru/video/embed/7927577985584989586')">mailVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame114" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo114(newSrc) {
+                            var iframe = document.getElementById('videoFrame114');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+
+                <!--cast 15-->
+                <div id="Episode115" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo115('https://uqload.io/embed-8o6nvljgt7p6.html')">uqloadVOSTFR</button>
+                        <button onclick="changeVideo115('//sendvid.com/embed/6uam2dad')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo115('https://video.sibnet.ru/shell.php?videoid=4667667&share=1')">sibnetVOSTFR</button>
+                        <button onclick="changeVideo115('https://my.mail.ru/video/embed/7927577985584989743')">mailVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame115" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo115(newSrc) {
+                            var iframe = document.getElementById('videoFrame115');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+
+                <!--cast 16-->
+                <div id="Episode116" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo116('https://uqload.io/embed-1uf61qed025v.html')">uqloadVOSTFR</button>
+                        <button onclick="changeVideo116('//sendvid.com/embed/bryqucpz')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo116('https://video.sibnet.ru/shell.php?videoid=4667673&share=1')">sibnetVOSTFR</button>
+                        <button onclick="changeVideo116('https://my.mail.ru/video/embed/7927577985584989881')">mailVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame116" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo116(newSrc) {
+                            var iframe = document.getElementById('videoFrame116');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+
+                <!--cast 17-->
+                <div id="Episode117" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo117('https://uqload.io/embed-x67f055wzmml.html')">uqloadVOSTFR</button>
+                        <button onclick="changeVideo117('//sendvid.com/embed/msul45pc')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo117('https://video.sibnet.ru/shell.php?videoid=4667683&share=1')">sibnetVOSTFR</button>
+                        <button onclick="changeVideo117('https://my.mail.ru/video/embed/7927577985584990023')">mailVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame117" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo117(newSrc) {
+                            var iframe = document.getElementById('videoFrame117');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+                <!--cast 18-->
+                <div id="Episode118" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo118('https://uqload.io/embed-i77drx0tqk9p.html')">uqloadVOSTFR</button>
+                        <button onclick="changeVideo118('//sendvid.com/embed/252sx7a9')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo118('https://video.sibnet.ru/shell.php?videoid=4667689&share=1')">sibnetVOSTFR</button>
+                        <button onclick="changeVideo118('https://my.mail.ru/video/embed/7927577985584990177')">mailVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame118" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo118(newSrc) {
+                            var iframe = document.getElementById('videoFrame118');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+                <!--cast 19-->
+                <div id="Episode119" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo119('//sendvid.com/embed/2qtjrd0w')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo119('https://video.sibnet.ru/shell.php?videoid=4667696&share=1')">sibnetVOSTFR</button>
+                        <button onclick="changeVideo119('https://www.yourupload.com/embed/KB4N1co713x8')">youruploadVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame119" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo119(newSrc) {
+                            var iframe = document.getElementById('videoFrame119');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+                <!--cast 20-->
+                <div id="Episode120" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo120('https://uqload.io/embed-yqdo9s1qp3kc.html')">uqloadVOSTFR</button>
+                        <button onclick="changeVideo120('//sendvid.com/embed/pxfxne05')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo120('https://video.sibnet.ru/shell.php?videoid=4667717&share=1')">sibnetVOSTFR</button>
+                        <button onclick="changeVideo120('https://www.yourupload.com/embed/I0IRdGN88ULH')">youruploadVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame120" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo120(newSrc) {
+                            var iframe = document.getElementById('videoFrame120');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+                <!--cast 21-->
+                <div id="Episode121" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo121('https://my.mail.ru/video/embed/7927577985584990579')">mailVOSTFR</button>
+                        <button onclick="changeVideo121('//sendvid.com/embed/lm8vbajm')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo121('https://video.sibnet.ru/shell.php?videoid=4667725&share=1')">sibnetVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame121" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo121(newSrc) {
+                            var iframe = document.getElementById('videoFrame121');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+                <!--cast 22-->
+                <div id="Episode122" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo122('https://uqload.io/embed-sco4319mxqwy.html')">uqloadVOSTFR</button>
+                        <button onclick="changeVideo122('//sendvid.com/embed/qxa3u3tu')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo122('https://video.sibnet.ru/shell.php?videoid=4667735&share=1')">sibnetVOSTFR</button>
+                        <button onclick="changeVideo122('https://my.mail.ru/video/embed/7927577985584990680')">mailVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame122" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+                        function changeVideo122(newSrc) {
+                            var iframe = document.getElementById('videoFrame122');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+                <!--cast 23-->
+                <div id="Episode123" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo123('https://uqload.io/embed-fxosvm82qb61.html')">uqloadVOSTFR</button>
+                        <button onclick="changeVideo123('//sendvid.com/embed/zbwl4seu')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo123('https://video.sibnet.ru/shell.php?videoid=4667746&share=1')">sibnetVOSTFR</button>
+                        <button onclick="changeVideo123('https://my.mail.ru/video/embed/7927577985584990821')">mailVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame123" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo123(newSrc) {
+                            var iframe = document.getElementById('videoFrame123');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+                <!--cast 24-->
+                <div id="Episode124" class="epiall" style="display: none;">
+                    <div class="butall">
+                        <button onclick="changeVideo124('https://my.mail.ru/video/embed/7927577985584991175')">mailVOSTFR</button>
+                        <button onclick="changeVideo124('//sendvid.com/embed/pgrewgwq')">sendvidVOSTFR</button>
+                        <button onclick="changeVideo124('https://video.sibnet.ru/shell.php?videoid=4667756&share=1')">sibnetVOSTFR</button>
+                    </div>
+                    <div class="cast">
+                        <iframe class="castifram" id="videoFrame124" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <script>
+
+                        function changeVideo124(newSrc) {
+                            var iframe = document.getElementById('videoFrame124');
+                            iframe.src = newSrc;
+                        }
+                    </script>
+                </div>
+
+                </div>
+
+
+
+
+
+
+                <!--div de discution-->
+                
+
+            </div>
+
+
+
+            <footer
+                style="width: 100%; height: 200px; position: relative; z-index: 1; background: #101728; color: rgb(83, 83, 83); display: flex; justify-content: center; align-items: center; flex-direction: column; top: 170px;">
+                &copy; 2023 - QRlod-scantrad by The monitor | Tout droits réservés
+            </footer>
+        </div>
+    </div>
+    <div style="position: fixed; z-index: 999;">
+        <a href="#all"><img src="../IMAGE/rob.png" alt="" style="width: 50px;"></a>
+    </div>
+    <div class="background">
+    </div>
+    <script src="../../JAVASCRIPT/navbarresponsiv.js"></script>
+
+</body>
+
+</html>
