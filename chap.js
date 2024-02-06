@@ -27,7 +27,7 @@ var spanItem = document.getElementById("spanItem");
 
         document.getElementById('btPrev').addEventListener('click', previousPage);
         document.getElementById('btNext').addEventListener('click', nextPage);
-
+// --------------------------------------------------------------------------------------------------------------
 
 
 function test_enable() {
@@ -36,11 +36,13 @@ function test_enable() {
                         document.getElementById('pageTitle').innerText = bt1Text;
                         document.getElementById('listItem').innerText = bt1Text;
                         document.getElementById('spanItem').innerText = bt1Text;
+  // ------------------------------------------------------
 
                         generateVideo('<div class="page-break no-gaps">\
                     <video id="video" controls src="../image/lecteur.mp4"></video>\
                     </div>\
                     ');
+  // ------------------------------------------------------
 
                         generateVideo('<div class="page-break no-gaps">\
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/dQGFXJkI-EU?si=Jn20oLgf466Hnyg_"\
@@ -48,13 +50,14 @@ function test_enable() {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"\
                         allowfullscreen></iframe>\
                 </div>\ ');
-
+// ------------------------------------------------------
                         generateVideo(' <div class="page-break no-gaps">\
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/noY1oTYvkRo?si=p7P_QvmTckmYhEda"\
                         title="YouTube video player" frameborder="0"\
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"\
                         allowfullscreen></iframe>\
                 </div>\ ');
+  // ------------------------------------------------------
 
                         generateAudio('<div class="page-break">\
                     <div class="cop">-JBUHVFF <br>\
@@ -107,9 +110,11 @@ function test_enable() {
                         });
 
                         playCurrentAudio(); // Commencer la lecture du premier fichier audio // Commencer la lecture du premier fichier audio
+  // ------------------------------------------------------
 
 
                         generateImages('../image/chapitre 0/', 3);
+  // ------------------------------------------------------
 
 
                         generateVideo(' <div class="page-break no-gaps">\
@@ -118,13 +123,16 @@ function test_enable() {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"\
                         allowfullscreen></iframe>\
                 </div>\ ');
+  // ------------------------------------------------------
 
 
                         generateVideo(' <div class="page-break no-gaps">\
                     <video id="video" controls src="../image/app.mp4"></video>\
                 </div>\ ');
+  // ------------------------------------------------------
 
                         generateImages2('../image/chapitre 0/', 7);
+  // ------------------------------------------------------
 
                         const customImageList = [
                             'https://s22.anime-sama.me/s1/scans/Vagabond/180/1.jpg',
@@ -133,15 +141,15 @@ function test_enable() {
                             'https://s22.anime-sama.me/s1/scans/Sakamoto%20Days/150/02.jpg'
                         ];
                         generateCustomImages(customImageList);
-
+  // ------------------------------------------------------
                         reloadScript();
                     }
 
-                    // désactivé
+                    // désactivé-------------------------
                     function test_disable() {
                         document.querySelector('.slam').innerHTML = '';
                     }
-
+// --------------------------------------------------------------------------------------------------------------
 
  // function generateAudio(audioHtml) {
                     //     document.querySelector('.slam').insertAdjacentHTML('beforeend', audioHtml);
