@@ -18,5 +18,3 @@ function reloadScript() {
                                 }
 
                                 document.addEventListener('DOMContentLoaded', reloadScript);
-
-                                document.addEventListener('DOMContentLoaded', reloadScript);
