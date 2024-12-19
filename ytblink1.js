@@ -1,4 +1,4 @@
-<script src="https://cdn.jsdelivr.net/npm/gh-release@7.0.2/index.min.js"></script>
+
             document.addEventListener("DOMContentLoaded", function () {
             const links = [
             "https://www.youtube.com/watch?v=qFk_8btS1VU&t=3s",
