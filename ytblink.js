@@ -1,4 +1,5 @@
-const links = [
+document.addEventListener("DOMContentLoaded", function () {
+            const links = [
             "https://www.youtube.com/watch?v=qFk_8btS1VU&t=3s",
 
             "https://www.youtube.com/watch?v=o4NL3NueCl0",
@@ -88,3 +89,5 @@ const links = [
 
             gallery.appendChild(thumbnail);
         });
+
+});
