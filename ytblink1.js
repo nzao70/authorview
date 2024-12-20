@@ -84,6 +84,7 @@
 "https://m.media-amazon.com/images/M/MV5BYmU3MzYzOWEtOTdkZi00YzA1LTliMzQtNDdiZDBjY2FiNmFlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
 "https://www.lescomics.fr/wp-content/uploads/2022/03/the-batman-2022-i120267.jpg",
 "https://www.dcplanet.fr/wp-content/uploads/2022/11/the-penguin.jpg",
+"https://static.wikia.nocookie.net/lunivers-cinematique-dc/images/9/91/Creature_Commandos08.jpg/revision/latest/scale-to-width-down/1200?cb=20241016173826&path-prefix=fr",
 "https://batman-univers.fr/wp-content/uploads/2024/12/Superman-2025-James-Gunn-clarifie-les-reshoots.jpg",
 "https://resize.prod.femina.ladmedia.fr/rblr/1200,806/img/var/2024-10/the-batman.jpg",
 "https://3238leblogdemarvelll-1278.kxcdn.com/wp-content/uploads/2022/02/the-batman-banniere-scaled.jpg",
