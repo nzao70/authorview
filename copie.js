@@ -1,11 +1,8 @@
-function copyText(button) {
-            // Récupérer le texte du bouton
-            const textToCopy = button.innerText;
-
+function copyText(text) {
             // Copier le texte dans le presse-papier
-            navigator.clipboard.writeText(textToCopy)
+            navigator.clipboard.writeText(text)
                 .then(() => {
-                    alert(`Texte copié : "${textToCopy}"`);
+                    alert(`Texte copié : "${text}"`);
                 })
                 .catch(err => {
                     console.error('Erreur lors de la copie :', err);
